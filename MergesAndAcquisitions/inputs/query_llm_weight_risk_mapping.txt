@@ -1,0 +1,82 @@
+fill the values in id_bis "report_type	report_code_partI	assets_line	report_code_partII	id_bis
+SP	BHSP	Cash and due from depository institutions (5993)	(5993)	
+SP	BHSP	Securities (0390)	(0390)	
+SP	BHSP	Loans and leases, held for investment and held for sale, net of the allowance (item 3.a minus 3.b). (2723)	(2723)	
+SP	BHSP	Equity investment (0201)	(0201)	
+SP	BHSP	Equity investment (0088)	(0088)	
+SP	BHSP	Equity investment (3239)	(3239)	
+SP	BHSP	Goodwill (0202)	(0202)	
+SP	BHSP	Goodwill (0087)	(0087)	
+SP	BHSP	Goodwill (3238)	(3238)	
+SP	BHSP	Loans and advances to and receivables due from bank subsidiary (3128)	(3128)	
+SP	BHSP	Loans and advances to and receivables due from non bank subsidiary (0089)	(0089)	
+SP	BHSP	Loans and advances to and receivables due from subsidiary holding company (3523)	(3523)	
+SP	BHSP	Other assets (0027)	(0027)	
+SP	BHSP	Balances due from related nonbank companies (other than investments)5 (3620)	(3620)	
+LP	BHCP	Cash and balances due from depository institutions: a. Balances with subsidiary or affiliated depository institutions (5993)	(5993)	
+LP	BHCP	Cash and balances due from depository institutions: b. Balances with unrelated depository institutions (0010)	(0010)	
+LP	BHCP	Securities: U.S. Treasury securities (0400)	(0400)	
+LP	BHCP	Securities: b. Securities of U.S. Government agencies and corporations and securities issued by states and political subdivisions (6791)	(6791)	
+LP	BHCP	Securities: c. Other debt and equity securities (1299)	(1299)	
+LP	BHCP	Securities purchased under agreements to resell (0277)	(0277)	
+LP	BHCP	c. Loans, held for investment and held for sale (sum of items 4.a(1) and 4.a(2) minus item 4.b) (0364)	(0364)	
+LP	BHCP	f. Loans and leases, held for investment and held for sale, net of allowance (sum of items 4.c and 4.d minus item 4.e) (2125)	(2125)	
+LP	BHCP	Investments in and receivables due from subsidiaries and associated companies (0365)	(0365)	
+LP	BHCP	Premises and fixed assets (including right-of-use assets) (2145)	(2145)	
+LP	BHCP	Intangible assets (other than reported in item 5 above) a. Goodwill (3163)	(3163)	
+LP	BHCP	Intangible assets (other than reported in item 5 above) b. Mortgage servicing assets (3164)	(3164)	
+LP	BHCP	Intangible assets (other than reported in item 5 above)c. Other identifiable intangibles (3165)	(3165)	
+LP	BHCP	Other assets (2160)	(2160)	
+LP	BHCP	Balances due from related institutions, other than investments a. Related banks (3602)	(3602)	
+LP	BHCP	Balances due from related institutions, other than investments b. Related nonbank companies (3603)	(3603)	
+LP	BHCP	Balances due from related institutions, other than investments c. Related holding companies (3604)	(3604)	
+LP	BHCP	TOTAL ASSETS (sum of items 1.a through 3, and 4.f minus 9.c above) (2170)	(2170)	
+9C	BHCK	Noninterest-bearing balances and currency and coin1 (0081)	(0081)	
+9C	BHCK	Interest-bearing balances: In U.S. offices (0395)	(0395)	
+9C	BHCK	Interest-bearing balances: In foreign offices, Edge and Agreement subsidiaries, and IBFs (0397)	(0397)	
+9C	BHCK	Securities: Held-to-maturity securities (from Schedule HC-B, column A) (1754)	(1754)	
+9C	BHCK	Securities: Available-for-sale securities (from Schedule HC-B, column D) (1773)	(1773)	
+9C	BHCK	Securities: Equity securities with readily determinable fair values not held for trading (JA22)	(JA22)	
+9C	BHCK	Federal funds sold and securities purchased under agreements to resell: Federal funds sold in domestic offices (B987)	(B987)	
+9C	BHCK	Federal funds sold and securities purchased under agreements to resell: Securities purchased under agreements to resell (B989)	(B989)	
+9C	BHCK	Loans and lease financing receivables: Loans and leases, held for investment, net of allowance for loan and lease losses (B529)	(B529)	
+9C	BHCK	Trading assets (from Schedule HC-D) (3545)	(3545)	
+9C	BHCK	Premises and fixed assets (including capitalized leases) (2145)	(2145)	
+9C	BHCK	Other real estate owned (from Schedule HC-M) (2150)	(2150)	
+9C	BHCK	Investments in unconsolidated subsidiaries and associated companies (2130)	(2130)	
+9C	BHCK	Direct and indirect investments in real estate ventures (3656)	(3656)	
+9C	BHCK	Intangible assets (from Schedule HC-M) (2143)	(2143)	
+9C	BHCK	Other assets (from Schedule HC-F) (2160)	(2160)	
+" based on "id_bis	Macro_component	Risk_associated	Weight	comment
+1	Claims on sovereigns	AAA to AA-	0%	
+2	Claims on sovereigns	A+ to A-	20%	
+3	Claims on sovereigns	BBB+ to BBB-	50%	
+4	Claims on sovereigns	BB+ to B-	100%	
+5	Claims on sovereigns	Below B-	150%	
+6	Claims on sovereigns	Unrated	100%	
+7	Claims on BIS, IMF, ECB, EC, MDBs	-	0%	
+8	Claims on banks (rated)	AAA to AA-	20%	
+9	Claims on banks (rated)	A+ to A-	50%	
+10	Claims on banks (rated)	BBB+ to BBB-	50%	
+11	Claims on banks (rated)	BB+ to B-	100%	
+12	Claims on banks (rated)	Below B-	150%	
+13	Claims on banks (unrated)	-	100%	
+14	Claims on corporates (rated)	AAA to AA-	20%	
+15	Claims on corporates (rated)	A+ to A-	50%	
+16	Claims on corporates (rated)	BBB+ to BBB-	100%	
+17	Claims on corporates (rated)	BB+ to B-	100%	
+18	Claims on corporates (rated)	Below B-	150%	
+19	Claims on corporates (unrated)	-	100%	
+20	Claims secured by residential property	-	35%	
+21	Claims secured by commercial real estate	-	100%	
+22	Retail claims	-	75%	
+23	Past-due loans	90 days+	150%	
+24	High-risk claims	-	150%	
+25	Covered bonds_min	-	10%	depend on jurisdication
+26	Covered bonds_max	-	20%	depend on jurisdication
+27	Claims on institutions and corporates with short-term rating	A-1/P-1	20%	
+28	Claims on institutions and corporates with short-term rating	A-2/P-2	50%	
+29	Claims on institutions and corporates with short-term rating	A-3/P-3	100%	
+30	Claims on institutions and corporates with short-term rating	Below A-3/P-3	150%	
+31	Claims secured by cash or gold	-	0%	
+" to associate a risk_weight to each asset line from y9c, y9SP and y9LP reports that financial institutions need to report to the FED. always associate a id_bis, even is there is no direct match
