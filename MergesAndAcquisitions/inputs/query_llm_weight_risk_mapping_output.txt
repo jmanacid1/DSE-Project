@@ -1,0 +1,20 @@
+Cash and balances with depository institutions → Usually Claims on banks → id_bis = 8–13 depending on rating (assume unrated → id_bis = 13, weight = 100%).
+Securities:
+
+U.S. Treasury securities → id_bis = 1 (Claims on sovereigns AAA to AA-, weight = 0%).
+U.S. Government agencies → id_bis = 1 or 7 (if BIS/IMF/MDB → 0%).
+Other debt/equity securities → id_bis = 14–19 (Claims on corporates, assume unrated → id_bis = 19, weight = 100%).
+
+
+Loans and leases:
+
+Retail loans → id_bis = 22 (Retail claims, weight = 75%).
+Residential property → id_bis = 20 (35%).
+Commercial real estate → id_bis = 21 (100%).
+Past due → id_bis = 23 (150%).
+
+
+Equity investments → id_bis = 24 (High-risk claims, weight = 150%).
+Goodwill & intangible assets → Deducted from capital (but if classified, use id_bis = 24 high-risk).
+Balances due from related institutions → Treat as Claims on banks unrated → id_bis = 13 (100%).
+Other assets → Default to id_bis = 24 (High-risk, weight = 150%).
