@@ -1,4 +1,0 @@
-- Add columns Loans and lease financing receivables:
- a. Loans:
- (1) To U.S. addressees (domicile)
- (2) To non-U.S. addressees (domicile).
